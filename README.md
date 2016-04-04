@@ -8,7 +8,8 @@ class Test
 {
   use FlattenTrait;
 
-  $this->flatten([1, 2, [3, [4, 5], 6], 7]);
+  $input = array(1, 2, [3, [4, 5], 6], 7);
+  $this->flatten($input);
   // => [1, 2, 3, 4, 5, 6, 7]
 }
 ```
