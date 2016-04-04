@@ -4,7 +4,7 @@ flattens nested php-arrays
 # Usage
 ```php
 include "flatten-array.php";
-class Test()
+class Test
 {
   use FlattenTrait;
 
