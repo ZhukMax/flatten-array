@@ -1,5 +1,8 @@
 <?php
-trait FlattenTrait {
+class FlattenTrait
+{
+  public $output;
+  
   public function __construct()
   {
     $this->output = array();
@@ -17,4 +20,3 @@ trait FlattenTrait {
     return $this->output;
   }
 }
-?>
