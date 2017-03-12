@@ -7,11 +7,11 @@ class FlattenArray
   {
     $this->output = array();
   }
-  public function addItem ($item)
+  public function addItem($item)
   {
     $this->output[] = $item;
   }
-  public function flatten ($input)
+  public function flatten($input)
   {
     $this->output = array();
     if (!is_array($input)) return $input;
